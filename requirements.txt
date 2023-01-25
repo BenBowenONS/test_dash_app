@@ -1,4 +1,4 @@
 dash==2.3.1
 plotly==5.4.0
-pandas==1.4.4
+pandas==1.2.5
 gunicorn
