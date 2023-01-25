@@ -1,7 +1,8 @@
 from dash import Dash, dcc, html, Input, Output
+import pandas as pd
 import plotly.express as px
 
-import pandas as pd
+
 
 df = pd.read_csv('gap_minder_data.csv')
 
