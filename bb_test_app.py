@@ -6,7 +6,7 @@ import pandas as pd
 df = pd.read_csv('gap_minder_data.csv')
 
 app = Dash(__name__)
-
+server = app.server
 app.layout = html.Div([
     html.H1(children='Test app for different hosting options'),
     dcc.Graph(id='graph-with-slider'),
